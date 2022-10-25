@@ -1,0 +1,14 @@
+SyntaxError: (irb):2: syntax error, unexpected ')', expecting '}'
+  from /usr/local/rvm/rubies/ruby-2.5.3/bin/irb:16:in `<main>'
+
+
+
+
+CHICKEN NUGGETS!
+  - The error message is saying that there is an error with the syntax.
+  - It states that a ) was put where a } should be.
+  - To correct this:
+	typo - we would need to put the } in place of the )
+	incomplete - we would need to complete the {} where the missing } belongs.
+			(double check anywhere a block or a hash was created.)
+			   (note: (irb):2: states the error is on line 2.)
