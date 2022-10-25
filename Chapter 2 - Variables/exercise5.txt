@@ -1,0 +1,20 @@
+x = 0
+3.times do
+  x += 1
+end
+puts x
+
+Solution: x will be 3. There is no error message.
+
+
+y = 0
+3.times do
+  y += 1
+  x = y
+end
+puts x
+
+Solution: x will not be displayed. There will be an error message.
+	  The error message will be because variables inside of the block
+	  are not accessible outside of the block. Variables outside of the block,
+	  however, are accessible inside the block. Hence, why example 1 worked.
