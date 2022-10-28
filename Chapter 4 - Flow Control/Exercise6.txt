@@ -1,0 +1,19 @@
+Exercise 6: (true, false, or error)
+
+1. (32 * 4) >= "129"
+2. 847 == '874'
+3. '847' < '846'
+4. '847' > '846'
+5. '847' > '8478'
+6. '847' < '8478'
+
+
+
+Solution:
+
+1. error
+2. false
+3. false
+4. true
+5. false
+6. true
