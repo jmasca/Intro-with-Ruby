@@ -1,0 +1,11 @@
+What does the each method in the following program return after it is finished executing?
+x = [1, 2, 3, 4, 5]
+x.each do |a|
+  a + 1
+end
+
+
+
+Solution: The 'each' method will return the original collection of elements it was called on.
+	  This is the same as the 'for' loop.
+	  In this example, what is returned will be: [1, 2, 3, 4, 5]
