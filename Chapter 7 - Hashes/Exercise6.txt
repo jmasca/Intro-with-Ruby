@@ -1,0 +1,16 @@
+Exercise 6:
+
+Given the following code...
+
+x = "hi there"
+my_hash = {x: "some value"}
+my_hash2 = {x => "some value"}
+
+What's the difference between the two hashes that were created?
+
+
+
+Solution: 
+
+my_hash is created with the key x, as a symbol, whereas
+my_hash2 is created with the variable x as a key, which contains the string "hi there".
