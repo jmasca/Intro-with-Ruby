@@ -1,0 +1,12 @@
+Exercise 3:
+
+What is exception handling and what problem does it solve?
+
+
+
+Solution:
+
+Exception handling is the anticipation of errors by providing a rescue plan if one is raised.
+
+It solves the problem of having your entire program crash because of one error by changing
+the flow of control.

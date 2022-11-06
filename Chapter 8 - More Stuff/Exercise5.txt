@@ -1,0 +1,26 @@
+Exercise 5:
+
+Why does the following code...
+
+def execute(block)
+  block.call
+end
+
+execute { puts "Hello from inside the execute method!" }
+
+
+Give us the following error when we run it?
+
+block.rb1:in `execute': wrong number of arguments (0 for 1) (ArgumentError)
+from test.rb:5:in `<main>'
+
+
+
+Solution:
+
+The error arises from the initial call to the execute method on line 5. This takes us to
+line 1 of the method definition where there is an ArgumentError stating that 0 of 1 arguments
+were provided. This is because the method is expecting a regular argument from its parameter
+'block' rather than expecting a block as an argument. We would need to add an ampersand before
+the parameter name if we wanted the method to expect a block argument instead of a regular argument.
+The correct syntax for line 1 would be: def execute(&block)
