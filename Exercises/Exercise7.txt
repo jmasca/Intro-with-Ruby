@@ -1,0 +1,10 @@
+Exercise 7:
+
+What's the major difference between an Array and a Hash?
+
+
+
+Solution:
+	The main difference between an Array and a Hash are the way that the two are indexed.
+	An Array is indexed with integers starting at zero, whereas a Hash is indexed by keys.
+	The Array is referenced by its index number and the Hash is referenced by its key-value pair.
